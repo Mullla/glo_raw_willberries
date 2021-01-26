@@ -1,0 +1,38 @@
+.logo-img{
+  width: 128px;
+
+}
+
+.navigation{
+  list-style: none;
+  margin-bottom: 0;
+  padding: 0;
+}
+
+.nav-link{
+  color: #939699;
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  text-transform: uppercase;
+  letter-spacing: 0.5;
+}
+
+.button{
+  padding: 10px 20px;
+  border-radius: 20px;
+  background: #4592FF;
+  border: none;
+  color: #fff;
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.btn-icon{
+  margin-right: 10px;
+}
