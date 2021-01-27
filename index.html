@@ -5,12 +5,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>WillBerries</title>
   <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;900&display=swap" rel="stylesheet">  
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;900&display=swap" rel="stylesheet"> 
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&display=swap" rel="stylesheet"> 
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <header class="container">
+  <header class="container header">
     <div class="row justify-content-between align-items-center">
       <div class="col-2">
         <a class="logo-link" href="/">
@@ -20,12 +21,12 @@
       <div class="col-6">
         <nav>
           <ul class="navigation d-flex justify-content-between">
-            <li class="nav-item"><a class="nav-link" href="#">Women</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">Men</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">Goods</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">Accessories</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">Brands</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">Blog</a></li>
+            <li class="nav-item"><a class="navigation-link" href="#">Women</a></li>
+            <li class="nav-item"><a class="navigation-link" href="#">Men</a></li>
+            <li class="nav-item"><a class="navigation-link" href="#">Goods</a></li>
+            <li class="nav-item"><a class="navigation-link" href="#">Accessories</a></li>
+            <li class="nav-item"><a class="navigation-link" href="#">Brands</a></li>
+            <li class="nav-item"><a class="navigation-link" href="#">Blog</a></li>
           </ul>
         </nav>
       </div>
@@ -38,5 +39,89 @@
     </div>
     <!-- .row -->
   </header>
+  <!-- header -->
+  <div class="slider">
+    <section class="slide slide-1">
+      <div class="container">
+        <div class="row">
+          <div class="col-4 offset-lg-1">
+            <span class="label">Bestseller</span>
+            <h2 class="slide-title">Sweater Choker Neck</h2>
+            <p class="slide-description">Women’s pearl basic knit sweater with a round neck. Available in several colours. Free shipping to stores.</p>
+            <button class="button">
+              <span class="btn-price">$319</span>
+              <span class="btn-text">Shop now</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="slider-nav">
+      <div class="container">
+        <div class="row justify-content-between">
+          <div class="col-1">
+            <button class="slider-btn">
+              <img src="img/arrow-prev.svg" alt="icon: previous arrow">
+            </button>
+          </div>
+          <div class="col-1">
+            <button class="slider-btn">
+              <img src="img/arrow-next.svg" alt="icon: next arrow">
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- /.slider-nav -->
+  </div>
+  <!-- slider -->
+  <div class="container pt-5 pb-4">
+    <div class="row">
+      <div class="col-6">
+        <div class="card card-1 mb-4">
+          <h3 class="card-title">Fashion Month Ready in Capital Shop</h3>
+          <p class="card-text">Bags & Accessories & Lingerie & Sportswear &
+            Beauty & Swimwear</p>
+          <button class="button card-btn">
+            <span class="btn-text">View all</span>
+            <img class="btn-icon" src="img/arrow.svg" alt="icon: arrow">
+          </button>
+        </div>
+      </div>
+      <!-- col-6 -->
+      <div class="col-6">
+        <div class="card card-2 mb-4">
+          <h3 class="card-title text-light">Catch the Sun: Spring Break Styles From $5.99</h3>
+          <p class="card-text text-light">Sweaters & Hoodies & Puffer Jackets & Coats and Jackets & Knit</p>
+          <button class="button card-btn">
+            <span class="btn-text">View all</span>
+            <img class="btn-icon" src="img/arrow.svg" alt="icon: arrow">
+          </button>
+        </div>
+      </div>
+      <!-- col-6 -->
+      <div class="col-9">
+        <div class="card card-3">
+          <span class="label card-label">Bestseller</span>
+          <h3 class="card-title large">Poplin Top <br> With Sleeve Bow</h3>
+          <p class="card-text large">Poplin top with roll neckline, long sleeves</p>
+          <button class="button card-btn">
+            <span class="btn-price">$129</span>
+            <span class="btn-text">Shop now</span>
+          </button>
+        </div>
+      </div>
+      <!-- col-9 -->
+      <div class="col-3">
+        <div class="card card-4">
+          <h3 class="card-title text-light">Printed Shirt <br> with a Bow</h3>
+          <p class="card-text text-light">Pink/Sky Blue/Yellow</p>
+          <span class="card-price text-light">$129</span>
+        </div>
+      </div>
+      <!-- col-3 -->
+    </div>
+  </div>
+  <!-- container -->
 </body>
 </html>
